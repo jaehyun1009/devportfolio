@@ -911,6 +911,14 @@ footer {
         h2 {
             font-size: 1.75em;
         }
+
+        a {
+            color: $base-color;
+            
+            &:hover {
+                color: $base-color-hover;
+            }
+        }
     }
 
     #about {

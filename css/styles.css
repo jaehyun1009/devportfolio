@@ -737,6 +737,12 @@
    #lead-content h2 {
      font-size: 1.75em;
    }
+   #lead-content a {
+     color: #d4af37;
+   }
+   #lead-content a:hover {
+     color: #b29126;
+   }
    #about {
      text-align: center;
    }
@@ -810,5 +816,4 @@
      font-size: 0.9em;
      padding: 5px 10px;
    }
- }
- 
+ } 
