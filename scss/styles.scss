@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #d4af37;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -53,6 +53,8 @@ $text: #74808a;
     ----- 2. Mixins -----
     ---------------------
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 
 @mixin transition($duration: 0.5s, $func: ease, $property: all) {
     transition: #{$duration} #{$func} #{$property};
@@ -85,7 +87,7 @@ $text: #74808a;
 */
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Urbanist', 'Lato', sans-serif;
     font-size: 16px;
 
     &.active {
@@ -245,6 +247,14 @@ footer {
     p {
         margin: 0;
         color: $text;
+    }
+
+    a {
+        color: $base-color;
+        
+        &:hover {
+            color: $base-color-hover;
+        }
     }
 }
 
@@ -672,6 +682,14 @@ footer {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+    }
+
+    a {
+        color: $base-color;
+
+        &:hover {
+            color: $base-color-hover;
+        }
     }
 }
 
