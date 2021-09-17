@@ -348,7 +348,7 @@
   ---------------------------
   */
  #about {
-   padding: 75px 15px;
+   padding: 55px 15px;
    border-bottom: 1px solid #dcd9d9;
  }
  #about h2 {
@@ -357,6 +357,11 @@
  #about p {
    color: #74808a;
    margin: 0;
+ }
+ #about div div .about-description{
+   display: flex;
+   align-items: center;
+   height: 190px;
  }
  /*
   --------------------------------
